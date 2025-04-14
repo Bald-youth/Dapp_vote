@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
 import VotingABI from '../contracts/VotingABI.json';
 
-const CONTRACT_ADDRESS = '0xYourContractAddressHere'; // 替换为你的合约地址
+const CONTRACT_ADDRESS = '0xfDBEaea500412fC5633995Dc4b9aa497b2fb180E'; // 替换为你的合约地址
 
 const Voting = () => {
   const [candidates, setCandidates] = useState([]);
