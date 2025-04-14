@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Vote from "./pages/Vote";
+import Vote from "./pages/Voting";
 
 function App() {
   return (
